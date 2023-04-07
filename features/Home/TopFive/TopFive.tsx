@@ -7,7 +7,7 @@ import { ProductList } from '@/utils/productType';
 export const TopFive = () => {
     const [products, setProducts] = useState<ProductList>()
     useEffect(() => {
-        axios.get(`/api/getItems`)
+        axios.get(`api/getItems`)
             .then((res) => {
                 setProducts(res.data)
             })
