@@ -1,0 +1,17 @@
+.container {
+    color: white;
+    background-color: var(--gray);
+    border: var(--border);
+    border-radius: 30px;
+    filter: var(--drop-shadow);
+    padding: 20px;
+    width: fit-content;
+    min-width: 220px;
+    height: fit-content;
+    margin-right: 15px;
+}
+
+.container h1 {
+    margin-top: 0;
+    font-size: 40px;
+}

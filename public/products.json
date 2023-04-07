@@ -1,0 +1,54 @@
+{
+    "products": [
+        {
+            "name": "Latarka 600 lumenów",
+            "price": "49.99",
+            "image": "latarka.png"
+        },
+        {
+            "name": "Odkurzacz elektrogruz",
+            "price": "99.99",
+            "image": "vacum.webp"
+        },
+        {
+            "name": "Śmietnik ProEko 240 litrów zielony",
+            "price": "70.30",
+            "image": "trash.jpg"
+        },
+        {
+            "name": "Szajnsung Galaxy S20FUJ",
+            "price": "4600.69",
+            "image": "phone.webp"
+        },
+        {
+            "name": "Vance 38",
+            "price": "200.90",
+            "image": "vans.webp"
+        },
+        {
+            "name": "Srajphone 14",
+            "price": "1000.00",
+            "image": "iphone.webp"
+        },
+        {
+           "name": "Lampa ogrodowa 100W",
+           "price": "50.70",
+           "image": "lampa.jpg"
+        },
+        {
+           "name": "Kurtka noname",
+           "price": "340.00",
+           "image": "kurtka.png"
+        },
+        {
+           "name": "Bluza damska \"Truskawka\"",
+           "price": "420.14",
+           "image": "bluza.png"
+        },
+        {
+           "name": "Sofa do domku",
+           "price": "1200.33",
+           "image": "sofa.png"
+        }
+    ]
+}

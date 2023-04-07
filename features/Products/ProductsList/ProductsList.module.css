@@ -1,0 +1,29 @@
+.container {
+    padding: 20px;
+    background-color: var(--gray);
+    border: var(--border);
+    filter: var(--drop-shadow);
+    border-radius: 30px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.container h1 {
+    margin-top: 0;
+    font-size: 40px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 987px) {
+    .container {
+        text-align: center;
+    }
+    .products {
+        flex-direction: column;
+    }
+}

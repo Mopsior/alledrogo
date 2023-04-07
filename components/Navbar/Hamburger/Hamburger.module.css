@@ -1,0 +1,46 @@
+.icon {
+    padding: 10px;
+    background-color: var(--gray);
+    border: var(--border);
+    border-radius: 15px;
+    width: fit-content;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    filter: var(--drop-shadow);
+    z-index: 999;
+}
+
+.menu {
+    height: 100vh;
+    width: 55vw;
+    background-color: var(--gray);
+    border-right: var(--border);
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    animation-duration: 0.5s;
+    animation-name: slidein;
+}
+
+.menu h1 {
+    font-size: 35px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@keyframes slidein {
+    from {
+        left: -250px;
+    }
+    to {
+        left: 0;
+    }
+}

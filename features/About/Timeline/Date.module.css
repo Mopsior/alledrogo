@@ -1,0 +1,33 @@
+.li {
+    list-style-type: none;
+    position: relative;
+    padding: 0 0 30px 50px;
+    border-left: 2px solid var(--orange);
+}
+
+.li:last-child {
+    border: 0;
+}
+
+.li:before {
+    content: "";
+    background-color: var(--orange);
+    position: absolute;
+    top: -5px;
+    left: -20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.timestamp {
+    font-size: 25px;
+    color: white;
+    margin: 0;
+}
+
+.description {
+    margin-top: 0;
+    font-size: 20px;
+    color: var(--light-gray);
+}

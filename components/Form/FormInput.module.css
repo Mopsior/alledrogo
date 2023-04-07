@@ -1,0 +1,34 @@
+.text {
+    width: 80%;
+    background-color: transparent;
+    border: 1px solid var(--light-gray);
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.textBox {
+    width: 80%;
+    background-color: transparent;
+    border: 1px solid var(--light-gray);
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+.submit {
+    width: 50%;
+    background-color: transparent;
+    border: 1px solid var(--orange);
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 25px;
+    color: var(--orange);
+    font-weight: bold;
+    cursor: pointer;
+    min-width: 150px;
+    margin-bottom: 20px;
+}

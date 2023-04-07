@@ -1,0 +1,16 @@
+.banner {
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid var(--light-gray);
+    background-color: var(--gray);
+    color: var(--light-gray);
+    text-align: center;
+    filter: var(--drop-shadow);
+    margin-bottom: 30px;
+}
+
+.special {
+    border: 1px solid var(--orange);
+    color: var(--orange);
+}

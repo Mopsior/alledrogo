@@ -1,0 +1,33 @@
+.navbar {
+    background-color: var(--gray);
+    height: 100px;
+    border: 1px solid var(--light-gray);
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    filter: var(--drop-shadow);
+    display: flex;
+    align-items: center;
+    padding: 5px 30px;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.login {
+    color: var(--orange);
+    display: flex;
+    align-items: center;
+}
+
+.margins {
+    --margins: 20px;
+    margin-right: var(--margins);
+    margin-left: var(--margins);
+}

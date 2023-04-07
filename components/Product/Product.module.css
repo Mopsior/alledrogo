@@ -1,0 +1,17 @@
+.product {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.product h2 {
+    color: var(--orange);
+    font-size: 30px;
+}
+
+.image {
+    object-fit: contain;
+}
+
+.small_price {
+    font-size: 20px;
+}

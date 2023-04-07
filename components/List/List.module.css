@@ -1,0 +1,21 @@
+.list {
+    display: flex;
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.list a {
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.margin {
+    margin-top: 20px;
+}
+
+.login {
+    color: var(--orange);
+}
