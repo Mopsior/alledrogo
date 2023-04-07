@@ -7,7 +7,7 @@ import styles from "./ProductsList.module.css"
 export const ProductsList = () => {
     const [products, setProducts] = useState<ProductList>()
     useEffect(() => {
-        axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/getItems`)
+        axios.get(`/api/getItems`)
             .then((res) => {
                 setProducts(res.data)
             })
