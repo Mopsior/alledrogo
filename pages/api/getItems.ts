@@ -11,7 +11,7 @@ export default async function handler(
     res: NextApiResponse<Data>
 ) {
     const jsonDirectory = path.join(process.cwd(), 'public');
-    console.log(process.cwd(), jsonDirectory, process.env.NEXT_PUBLIC_JSON_DIRECTORY)
+    console.log('123456', process.cwd(), jsonDirectory, process.env.NEXT_PUBLIC_JSON_DIRECTORY)
     const fileContents = await fs.readFile(jsonDirectory + process.env.NEXT_PUBLIC_JSON_DIRECTORY, 'utf8');
     res.status(200).json(JSON.parse(fileContents))
 }
