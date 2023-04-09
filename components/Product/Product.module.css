@@ -9,6 +9,10 @@
 }
 
 .image {
+    /* zmniejszamy zdjęcie
+    aby zawsze miało takie
+    same wymairy, ale nie
+    było ucięte */
     object-fit: contain;
 }
 

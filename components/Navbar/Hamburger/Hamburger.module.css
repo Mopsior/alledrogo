@@ -4,10 +4,12 @@
     border: var(--border);
     border-radius: 15px;
     width: fit-content;
+    /* ustawiamy stałą pozycję na ekranie */
     position: fixed;
     top: 15px;
     left: 15px;
     filter: var(--drop-shadow);
+    /* ustawiamy ikonę na sam wierzch */
     z-index: 999;
 }
 
@@ -18,10 +20,13 @@
     border-right: var(--border);
     color: white;
     padding: 20px;
+    /* ustawiamy stałą pozycję na ekranie */
     position: fixed;
     top: 0;
     left: 0;
+    /* ustawiamy menu na sam wierzch strony */
     z-index: 999;
+    /*✨wywołujemy animacje otwierania✨*/
     animation-duration: 0.5s;
     animation-name: slidein;
 }
@@ -35,11 +40,13 @@
     justify-content: space-between;
 }
 
-
+/*✨animacja otwierania✨*/
 @keyframes slidein {
+    /* zaczynamy z lewej strony */
     from {
         left: -250px;
     }
+    /* konczymy na domyślnej pozycji */
     to {
         left: 0;
     }

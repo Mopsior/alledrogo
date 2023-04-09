@@ -9,6 +9,7 @@ interface ProductProps {
 }
 
 export const Product = ({ title, price, image }: ProductProps) => {
+    // dzielimy cenę na złotówki i grosze
     const bigPrice = price.split('.')[0];
     const smallPrice = price.split('.')[1];
 
@@ -16,6 +17,7 @@ export const Product = ({ title, price, image }: ProductProps) => {
         <Link href="#">
             <div className={styles.product}>
                 <Image alt={title} src={`/products/${image}`} width={150} height={250} className={styles.image} />
+                {/* Grosze wyświetlamy jako mniejsze od złotówek */}
                 <h2>{bigPrice},<span className={styles.small_price}>{smallPrice}</span> zł</h2>
                 <p>{title}</p>
             </div>

@@ -5,6 +5,7 @@ import { useEffect, useState } from "react"
 import styles from "./ProductsList.module.css"
 
 export const ProductsList = () => {
+    // Dokładnie to samo co w wypadku TopFive
     const [products, setProducts] = useState<ProductList>()
     useEffect(() => {
         axios.get(`api/getItems`)
@@ -12,6 +13,7 @@ export const ProductsList = () => {
                 setProducts(res.data)
             })
     }, [])
+    // Wybieramy wszystkie produkty
     return (
         <div className={styles.container}>
             <h1>Produkty</h1>

@@ -20,6 +20,8 @@
 }
 
 @media screen and (max-width: 987px) {
+    /* Na telefonie zmieniamy wiersz
+    na kolumne */
     .container {
         text-align: center;
     }

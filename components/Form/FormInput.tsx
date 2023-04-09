@@ -2,12 +2,14 @@ import styles from './FormInput.module.css';
 
 interface FormInputProps {
     type: 'name' | 'text' | 'submit' | 'login' | 'password' | 'repeatPassword',
+    // Ustawiamy na opcjonalne
     text?: string
 }
 
 export const FormInput = ({ type, text }: FormInputProps) => {
     return (
         <>
+            {/* robimy sprawdzenie dla każdej opcji type */}
             { type === 'name' && <input type="text" placeholder="Imię" className={styles.text} /> }
             { type === 'login' && <input type="text" placeholder="Login" className={styles.text} /> }
             { type === 'password' && <input type="password" placeholder="Hasło" className={styles.text} /> }

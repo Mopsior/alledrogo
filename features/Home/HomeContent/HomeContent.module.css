@@ -1,9 +1,3 @@
-.container {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-}
-
 .banners {
     display: flex;
     justify-content: space-between;
@@ -11,11 +5,7 @@
 }
 
 @media (max-width: 987px) {
-    .container {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
+    /* Zmieniamy bannery na kolumnę */
     .banners {
         flex-direction: column;
         align-items: center;

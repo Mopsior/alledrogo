@@ -14,7 +14,12 @@ interface ListProps {
 
 export const List = ({ icon }: ListProps) => {
     return (
-        <div className={`${styles.list} ${icon === 'about' || icon === 'login' ? styles.margin : ''} ${icon === 'login' ? styles.login : '' }`}>
+        // sprawdzamy czy icon jest równy 'about' lub 'login' i jeśli tak to dodajemy klasę margin
+        // sprawdzamy czy icon jest równy 'login' i jeśli tak to dodajemy klasę login
+        <div className={`${styles.list}
+        ${icon === 'about' || icon === 'login' ? styles.margin : ''}
+        ${icon === 'login' ? styles.login : '' }`}>
+            {/* wykonujemy sprawdzanie dla każdego icon */}
             { icon === "home"
             && <>
                 <HomeRoundedIcon fontSize='large'/>

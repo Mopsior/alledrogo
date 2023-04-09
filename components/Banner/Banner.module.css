@@ -11,6 +11,8 @@
 }
 
 .special {
+    /* Jeżeli banner jest specjalny
+    zmieniamy kolor i border na pomarańczowy*/
     border: 1px solid var(--orange);
     color: var(--orange);
 }

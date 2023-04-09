@@ -1,15 +1,23 @@
 .li {
+    /* usuwamy domyślny styl list */
     list-style-type: none;
+    /* ustawiamy position relative
+    aby użyć potem absolute */
     position: relative;
+    /* Ustawiamy odstęp, aby zrobić linie */
     padding: 0 0 30px 50px;
+    /* Ustawiamy linie łączącą elementy */
     border-left: 2px solid var(--orange);
 }
 
 .li:last-child {
+    /* Usuwamy linię dla
+    ostatniego elementu */
     border: 0;
 }
 
 .li:before {
+    /* Tworzymy "kropkę" */
     content: "";
     background-color: var(--orange);
     position: absolute;

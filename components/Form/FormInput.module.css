@@ -16,6 +16,8 @@
     padding: 10px 20px;
     font-size: 25px;
     margin-bottom: 20px;
+    /* blokujemy rozszerzanie dla
+    textarea */
     resize: none;
 }
 

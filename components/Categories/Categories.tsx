@@ -4,11 +4,15 @@ import { useEffect, useState } from 'react';
 import styles from './Categories.module.css';
 
 export const Categories = () => {
+    // Zapisujemy czy jesteśmy na urządzeniu mobilnym
     const [mobile, setMobile] = useState(false)
     useEffect(() => {
+        // Sprawdzamy czy jesteśmy na urządzeniu mobilnym
         setMobile(isMobile(window))
     })
     
+    // Jeśli jesteśmy na urządzeniu mobilnym
+    // nie wyświetlamy kategorii (są w menu)
     if (mobile) return (<></>)
     return (
         <div className={styles.container}>

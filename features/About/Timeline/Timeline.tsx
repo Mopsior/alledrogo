@@ -2,6 +2,7 @@ import { Date } from './Date'
 
 export const Timeline = () => {
     return (
+        // Tworzymy nieugrupowaną listę z datami
         <ul>
             <Date timestamp="Gdzieś po 1999">Wyśmiewanie Allegro jako Aledrogo</Date>
             <Date timestamp="15 marca 2023">Otrzymanie specyfikacji od Pana Kacpra Ślipko</Date>
